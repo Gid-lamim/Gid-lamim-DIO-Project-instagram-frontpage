@@ -1,0 +1,39 @@
+
+*{/* <-- is the default styling */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;  /* this turns the element into a flex container  A flex container expands items to fill available free space or shrinks them to prevent overflow.*/
+    align-items: center; /* it'll center the items vertically. If the flex-directions is set to column, it will align the items horizontally.*/
+    justify-content: start; 
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
+}
+
+.instagram-phone img{
+    height: 50rem; /*rem 	Relative to font-size of the root element*/
+    /*for more inuts, visit: https://www.w3schools.com/cssref/css_units.asp*/
+}

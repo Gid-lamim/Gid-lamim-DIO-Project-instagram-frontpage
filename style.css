@@ -149,3 +149,32 @@ body{
 .app-download:nth-child(2){/*second get app bottton - google play*/
     background-image: url('./img/googleplay-button.png');
 }
+
+
+/*media queries*/
+
+@media (max-width: 1024px) {
+    .instagram-wrapper{
+        width: 90%;  /* this widens the screen, so the content won't touch each other. that allows it to be responsive*/
+    }   
+}
+
+@media (max-width: 560px){
+    body{
+        background-color: #fff;
+    }
+    .instagram-wrapper{
+        width: 90%;  
+    } 
+    .instagram-phone{
+        display: none; /*this will hide the phonem, as it's not necessary*/
+    }
+    .instagram-continue{
+        width: 650px;
+    }
+    .group{
+        border: 0;
+    }
+    
+
+}

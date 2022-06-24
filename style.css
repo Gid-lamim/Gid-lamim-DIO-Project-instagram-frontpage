@@ -62,12 +62,15 @@ body{
 }
 
 .group:nth-child(1){ /*nth-child(n) --> Style the nth instance of the class */
+    margin-top: 6rem;
     min-height: 19rem;
     margin-bottom: 1.3rem;
 }
 
 .instagram-logo{
     height: 3rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 .profile-photo{
@@ -79,8 +82,8 @@ body{
     background-image: url('./img/mypic.jpg');
     background-size: contain;
     background-image: url(./img/mypic.jpg);
-    height: 10rem;
-    width: 10rem;
+    height: 6rem;
+    width: 6rem;
 }
 
 
@@ -90,14 +93,13 @@ body{
 }
 
 .instagram-login{
-   margin: 0;
+     margin: 0;
    background-color: rgba(var(--d69,0,149,246),1);
    border: 1px solid transparent;
-   margin-top: 16px;
-   margin-bottom: 16px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
    border-radius: 4px;
    font-size: 14px;
-   font-weight: 600;
    padding: 5px 9px;
    text-align: center;
    color: #fff;

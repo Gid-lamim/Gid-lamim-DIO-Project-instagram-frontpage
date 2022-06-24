@@ -37,3 +37,46 @@ body{
     height: 50rem; /*rem 	Relative to font-size of the root element*/
     /*for more inuts, visit: https://www.w3schools.com/cssref/css_units.asp*/
 }
+
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;  /*this kind of rotates the flexbox 90 degrees. the centered align-items align the items horizontally now. The Justify-content now space the content vertically.*/
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    /*now let's create the box look to the div*/
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    width: 100%; /*50% of it's parent class*/
+    padding: 1.3rem 0; 
+    /*----------------------------------------*/
+}
+
+.group:nth-child(1){ /*nth-child(n) --> Style the nth instance of the class */
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img{
+    height: 9rem;
+}
